@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleManipulation", "ConsoleManipulation\ConsoleManipulation.csproj", "{522DF4BB-6659-4785-9C94-925333C139C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordScore", "WordScore\WordScore.csproj", "{B0388199-34B6-42AD-B590-9C9A59894850}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{522DF4BB-6659-4785-9C94-925333C139C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{522DF4BB-6659-4785-9C94-925333C139C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{522DF4BB-6659-4785-9C94-925333C139C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0388199-34B6-42AD-B590-9C9A59894850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0388199-34B6-42AD-B590-9C9A59894850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0388199-34B6-42AD-B590-9C9A59894850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0388199-34B6-42AD-B590-9C9A59894850}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
