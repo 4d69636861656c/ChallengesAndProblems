@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace FallingBricks
+namespace ConsoleManipulation
 {
-    public static class ColorfulUtilities
+    public static class ConsoleUtilities
     {
         public static void ColorfulWriteLine(string message, ConsoleColor consoleColor)
         {

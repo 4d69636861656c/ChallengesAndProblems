@@ -1,5 +1,5 @@
 ﻿using System;
-using static FallingBricks.ColorfulUtilities;
+using static ConsoleManipulation.ConsoleUtilities;
 
 namespace FallingBricks
 {

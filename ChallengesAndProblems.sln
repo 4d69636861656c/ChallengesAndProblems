@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FallingBricks", "FallingBricks\FallingBricks.csproj", "{272C0A83-708B-454E-A77E-A093ADD6B4EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FallingBricks", "FallingBricks\FallingBricks.csproj", "{272C0A83-708B-454E-A77E-A093ADD6B4EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvertStringCase", "StringCaseManipulation\InvertStringCase.csproj", "{6C604BC6-201E-436D-B07F-00FCE1DACDBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringUtilities\StringManipulation.csproj", "{8231B61E-FF00-40F7-9E02-783D1E83B431}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{ACD56D4A-6CC9-4628-9C6F-B2E463DDA602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleManipulation", "ConsoleManipulation\ConsoleManipulation.csproj", "{522DF4BB-6659-4785-9C94-925333C139C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,25 @@ Global
 		{272C0A83-708B-454E-A77E-A093ADD6B4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{272C0A83-708B-454E-A77E-A093ADD6B4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{272C0A83-708B-454E-A77E-A093ADD6B4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C604BC6-201E-436D-B07F-00FCE1DACDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C604BC6-201E-436D-B07F-00FCE1DACDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C604BC6-201E-436D-B07F-00FCE1DACDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C604BC6-201E-436D-B07F-00FCE1DACDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8231B61E-FF00-40F7-9E02-783D1E83B431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8231B61E-FF00-40F7-9E02-783D1E83B431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8231B61E-FF00-40F7-9E02-783D1E83B431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8231B61E-FF00-40F7-9E02-783D1E83B431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522DF4BB-6659-4785-9C94-925333C139C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522DF4BB-6659-4785-9C94-925333C139C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522DF4BB-6659-4785-9C94-925333C139C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522DF4BB-6659-4785-9C94-925333C139C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8231B61E-FF00-40F7-9E02-783D1E83B431} = {ACD56D4A-6CC9-4628-9C6F-B2E463DDA602}
+		{522DF4BB-6659-4785-9C94-925333C139C3} = {ACD56D4A-6CC9-4628-9C6F-B2E463DDA602}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F37599FA-45F6-45F3-BEA6-5830F02FDF05}
