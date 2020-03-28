@@ -4,8 +4,6 @@ namespace StringManipulation
 {
     public static class StringUtilities
     {
-        private static char[] wordSeparators = { ' ', '.', ',', '|' };
-
         public static string InvertCase(string text)
         {
             char[] characters = text.ToCharArray();
@@ -106,6 +104,32 @@ namespace StringManipulation
             }
 
             return wordScore;
+        }
+
+        public static bool IsPalindrome(string palindrome)
+        {
+            string reverse;
+            char[] temp;
+
+            // Remove spaces and convert to lowercase. 
+            reverse = palindrome.Replace(" ", "");
+            reverse = reverse.ToLower();
+
+            // Convert to an array.
+            temp = reverse.ToCharArray();
+
+            // Reverse the array. 
+            Array.Reverse(temp);
+
+            // Convert the array back to a string and check if reverse string is the same. 
+            if (reverse == new string(temp))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
