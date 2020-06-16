@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoShuMagicSquare", "LoShuMa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollOfDiceSimulator", "RollOfDiceSimulator\RollOfDiceSimulator.csproj", "{766088DE-4CD5-4826-A84A-4DC1E2DD8915}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfCraps", "GameOfCraps\GameOfCraps.csproj", "{BE83BE64-A18E-41C1-A2D7-C485934CF6EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfCraps", "GameOfCraps\GameOfCraps.csproj", "{BE83BE64-A18E-41C1-A2D7-C485934CF6EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionToBinary", "ConversionToBinary\ConversionToBinary.csproj", "{859B7972-DFAF-4443-B9D0-A03C3BF78A2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{BE83BE64-A18E-41C1-A2D7-C485934CF6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE83BE64-A18E-41C1-A2D7-C485934CF6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE83BE64-A18E-41C1-A2D7-C485934CF6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859B7972-DFAF-4443-B9D0-A03C3BF78A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859B7972-DFAF-4443-B9D0-A03C3BF78A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859B7972-DFAF-4443-B9D0-A03C3BF78A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859B7972-DFAF-4443-B9D0-A03C3BF78A2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
