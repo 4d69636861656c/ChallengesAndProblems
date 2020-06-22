@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfCraps", "GameOfCraps\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversionToBinary", "ConversionToBinary\ConversionToBinary.csproj", "{859B7972-DFAF-4443-B9D0-A03C3BF78A2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleGraphics", "TurtleGraphics\TurtleGraphics.csproj", "{78B4CBE1-33E7-46A1-A2EE-4A33119C6F52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurtleGraphics", "TurtleGraphics\TurtleGraphics.csproj", "{78B4CBE1-33E7-46A1-A2EE-4A33119C6F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TortoiseVersusHareRaceSimulation", "TortoiseVersusHareRaceSimulation\TortoiseVersusHareRaceSimulation.csproj", "{4689A0B0-B21D-4139-BFC9-332D8569C8D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{78B4CBE1-33E7-46A1-A2EE-4A33119C6F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78B4CBE1-33E7-46A1-A2EE-4A33119C6F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78B4CBE1-33E7-46A1-A2EE-4A33119C6F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4689A0B0-B21D-4139-BFC9-332D8569C8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4689A0B0-B21D-4139-BFC9-332D8569C8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4689A0B0-B21D-4139-BFC9-332D8569C8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4689A0B0-B21D-4139-BFC9-332D8569C8D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
