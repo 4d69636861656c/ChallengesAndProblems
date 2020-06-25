@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversionToBinary", "Conve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurtleGraphics", "TurtleGraphics\TurtleGraphics.csproj", "{78B4CBE1-33E7-46A1-A2EE-4A33119C6F52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TortoiseVersusHareRaceSimulation", "TortoiseVersusHareRaceSimulation\TortoiseVersusHareRaceSimulation.csproj", "{4689A0B0-B21D-4139-BFC9-332D8569C8D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TortoiseVersusHareRaceSimulation", "TortoiseVersusHareRaceSimulation\TortoiseVersusHareRaceSimulation.csproj", "{4689A0B0-B21D-4139-BFC9-332D8569C8D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnightTour", "KnightTour\KnightTour.csproj", "{4C55BB12-2E5D-4DEB-A518-3B0EB9CB4364}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +97,10 @@ Global
 		{4689A0B0-B21D-4139-BFC9-332D8569C8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4689A0B0-B21D-4139-BFC9-332D8569C8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4689A0B0-B21D-4139-BFC9-332D8569C8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C55BB12-2E5D-4DEB-A518-3B0EB9CB4364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C55BB12-2E5D-4DEB-A518-3B0EB9CB4364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C55BB12-2E5D-4DEB-A518-3B0EB9CB4364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C55BB12-2E5D-4DEB-A518-3B0EB9CB4364}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
